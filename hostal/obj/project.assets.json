@@ -7881,21 +7881,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
+      "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj",
       "projectName": "hostal",
-      "projectPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
+      "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\obj\\",
+      "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7967,7 +7965,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
