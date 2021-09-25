@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\proyectos\\Hotel\\hostal\\hostal.csproj": {}
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "C:\\proyectos\\Hotel\\hostal\\hostal.csproj": {
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectos\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "C:\\proyectos\\Hotel\\hostal\\hostal.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectos\\Hotel\\hostal\\obj\\",
+        "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
