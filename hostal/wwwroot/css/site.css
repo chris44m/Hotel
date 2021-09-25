@@ -75,13 +75,10 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
 /* Login
 -------------------------------------------------- */
 
-=======
 /* ABOUT US -------------------------------------------------- */
 .hero-wrap {
   width: 100%;
@@ -420,6 +417,3 @@ background-position: center center; }
 
       .d-block {
         display: block !important; }
->>>>>>> b4c2a6a26ebc20090dc497ca550e6f5a7b071081
-=======
->>>>>>> parent of 4166b65 (CSS)

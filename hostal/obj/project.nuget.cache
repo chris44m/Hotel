@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JsFFAA3hDXcUYDl2cW2j030YVMNe1sQXgGdoCyzsdryDFIQepNEp9QKFcj7uPkR8u1NGefsiS/xZPcNEXN9eog==",
+  "dgSpecHash": "M6e4bwEpu6eMLMj/zWoyIOiCcw00iphaP6cAWhwEh7cRkRn0MzVj87WhtL8S+rQ2LJJVNl/vKx7r5gISeFwVOg==",
   "success": true,
-  "projectFilePath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO NUEVO\\Hotel\\hostal\\hostal.csproj",
+  "projectFilePath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
