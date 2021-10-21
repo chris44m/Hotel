@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {}
+    "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {
+    "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\obj\\",
+        "projectPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\hostal.csproj",
+        "packagesPath": "C:\\Users\\CURIOSO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CURIOSO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -93,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

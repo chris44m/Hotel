@@ -13,8 +13,11 @@ namespace hostal.Data
             : base(options)
         {
         }
+             public DbSet<hostal.Models.Product> DataProducts { get; set; }
+
+        }
 
 
 
     }
-}
+
