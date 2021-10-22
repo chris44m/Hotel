@@ -482,11 +482,11 @@
           "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.9": {
+      "Microsoft.EntityFrameworkCore/5.0.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.11",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -501,7 +501,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.11": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -510,7 +510,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.11": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -3036,45 +3036,45 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/5.0.9": {
-      "sha512": "mA+W/zpJZMp802xt2D+qBXrme4VFN+FlsrHdU6WG5HKDAnezClRksJhJicUR8XojnSPp9SgZKa1aIAasB5G67g==",
+    "Microsoft.EntityFrameworkCore/5.0.11": {
+      "sha512": "2DQJvH6NRPRKPOR6ZaJe2pDn0bSpQZSzHk+7QatFo06KfvP3Tixy5DAOviXkP6963FEQMuVDSvZef1amORBnaw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/5.0.9",
+      "path": "microsoft.entityframeworkcore/5.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.9": {
-      "sha512": "csbpDaXe9iQUkvDS3JZRAFfkgcRA7BlHE3u8feBLlYervmTAS1WIWPBZKMtH0a2GO5njwAABU3j+hZMCPYBrzQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.11": {
+      "sha512": "Ut1BeIwAavUncIChZ0jM7qdqVsnLI1i2eCn/7rdqpVW/JldPFMQzlCMBtiq7dGuVMSniDNUnc93olYtttyD/Fg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.9",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {
-      "sha512": "eyuPLRFjcF7VWH8qy1uUuMrO02W15n9EXAXnYjCTWgH0SDIeZAa2XZXMZ9U3dvOPtvllMBy0obYA5SSbnpaNoQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.11": {
+      "sha512": "6vCGQY0H667qkV5fGuhHzWPveF0dpEwEs9xQyDgamwxkIN7LrPHQGp2eOXj6xVF+i8noTLtTR4sNMizKSnI2JA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.9",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -7868,6 +7868,7 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.9",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.9",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.9",
+      "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.9",
@@ -7876,19 +7877,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CURIOSO\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\hostal.csproj",
+      "projectUniqueName": "E:\\USMP - VIRTUAL\\2021 - II\\programacion 1\\repositorio\\Hotel\\hostal\\hostal.csproj",
       "projectName": "hostal",
-      "projectPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\hostal.csproj",
-      "packagesPath": "C:\\Users\\CURIOSO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\Hotel-1\\hostal\\obj\\",
+      "projectPath": "E:\\USMP - VIRTUAL\\2021 - II\\programacion 1\\repositorio\\Hotel\\hostal\\hostal.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "E:\\USMP - VIRTUAL\\2021 - II\\programacion 1\\repositorio\\Hotel\\hostal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CURIOSO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7923,6 +7924,10 @@
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
             "version": "[5.0.9, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.11, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -7965,7 +7970,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
