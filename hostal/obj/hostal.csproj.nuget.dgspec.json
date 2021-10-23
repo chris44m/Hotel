@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\actividad-1\\Hotel\\hostal\\hostal.csproj": {}
+    "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\actividad-1\\Hotel\\hostal\\hostal.csproj": {
+    "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\actividad-1\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\actividad-1\\Hotel\\hostal\\hostal.csproj",
-        "packagesPath": "C:\\Users\\CURIOSO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\Kathy\\karhy_repositorio\\actividad-1\\Hotel\\hostal\\obj\\",
+        "projectPath": "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\hostal.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CURIOSO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -51,6 +51,12 @@
               "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
             },
@@ -95,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
