@@ -18,6 +18,8 @@ namespace hostal.Data
 
              public DbSet<hostal.Models.Contact> DataContactos { get; set; }
 
+             public DbSet<hostal.Models.Proforma> DataProforma { get; set; }
+
         }
 
 

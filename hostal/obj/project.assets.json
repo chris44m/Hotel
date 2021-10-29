@@ -7878,19 +7878,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Windows\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\hostal.csproj",
+      "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAL\\Hotel\\hostal\\hostal.csproj",
       "projectName": "hostal",
-      "projectPath": "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\hostal.csproj",
-      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "E:\\USMP - VIRTUAL\\2021 - II\\Hotel\\hostal\\obj\\",
+      "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAL\\Hotel\\hostal\\hostal.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAL\\Hotel\\hostal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7977,7 +7977,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
