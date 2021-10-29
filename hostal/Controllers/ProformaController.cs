@@ -75,7 +75,7 @@ namespace hostal.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantity,Price,UserID")] Proforma proforma)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantity,Precio,UserID")] Proforma proforma)
         {
             if (id != proforma.Id)
             {

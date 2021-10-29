@@ -1526,3 +1526,4 @@ F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAL\Hotel\hostal\obj\Debug\net5.0\host
 F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAL\Hotel\hostal\obj\Debug\net5.0\hostal.genruntimeconfig.cache
 F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAL\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Proforma\Edit.cshtml.g.cs
 F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAL\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Proforma\Index.cshtml.g.cs
+F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAL\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Pago\Create.cshtml.g.cs
