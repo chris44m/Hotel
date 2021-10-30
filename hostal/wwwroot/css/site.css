@@ -1,5 +1,8 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿.iconohome{
+  font-size: 50px;
+  color: #89BF0E;
+}
+
 
 a.navbar-brand {
   white-space: normal;
@@ -8,6 +11,7 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
+
 a {
   color: #0366d6;
 }
@@ -62,11 +66,16 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   font-family: "Roboto", Arial, sans-serif;
-    background: #fff;
+    /*background: #fff;*/
     font-size: 15px;
     line-height: 1.8;
     font-weight: 400;
-    color: #606e7f;
+    /*color: #606e7f;*/
+
+    background-image: url(../images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .footer {
   position: absolute;
@@ -98,15 +107,15 @@ body {
   bottom: 0;
   content: '';
   opacity: .7;
-  background: #6a00ff;
-  background: -moz-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #6a00ff), color-stop(100%, #ffd900));
-  background: -webkit-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-  background: -o-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-  background: -ms-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#6a00ff), to(#ffd900));
-  background: linear-gradient(to right, #6a00ff 0%, #ffd900 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', endColorstr='#ffd900', GradientType=1 );
+  background: #1D1D1D;
+  background: -moz-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #1D1D1D), color-stop(100%, #89BF0E));
+  background: -webkit-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+  background: -o-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+  background: -ms-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#1D1D1D), to(#89BF0E));
+  background: linear-gradient(to right, #1D1D1D 0%, #89BF0E 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D1D1D', endColorstr='#89BF0E', GradientType=1 );
 }
 
 .hotel-img,
@@ -124,7 +133,8 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+ }
 
 @media (min-width: 576px) {
     .container {
@@ -227,44 +237,6 @@ align-items: center !important;
   justify-content: center !important; 
 }
 
-
-/*
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
-.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
-.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
-.col-xl-auto {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px; 
-}
-
-.col {
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  max-width: 100%; 
-}
-
-.ftco-animate {
-  opacity: 0;
-  visibility: hidden; 
-}
-
-.text-center {
-  text-align: center !important; 
-}
-
-.mb-3,
-.my-3 {
-  margin-bottom: 1rem !important; 
-}*/
-
 .ftco-section-3 {
   padding: 8em 0;
   position: relative; }
@@ -276,15 +248,15 @@ align-items: center !important;
     bottom: 0;
     content: '';
     opacity: .8;
-    background: #6a00ff;
-    background: -moz-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #6a00ff), color-stop(100%, #ffd900));
-    background: -webkit-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-    background: -o-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-    background: -ms-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#6a00ff), to(#ffd900));
-    background: linear-gradient(to right, #6a00ff 0%, #ffd900 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', endColorstr='#ffd900', GradientType=1 ); }
+    background: #1D1D1D;
+    background: -moz-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #1D1D1D), color-stop(100%, #89BF0E));
+    background: -webkit-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+    background: -o-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+    background: -ms-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#1D1D1D), to(#89BF0E));
+    background: linear-gradient(to right, #1D1D1D 0%, #89BF0E 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D1D1D', endColorstr='#89BF0E', GradientType=1 ); }
 
     .ftco-section-2 {
       position: relative;
@@ -300,15 +272,15 @@ align-items: center !important;
           background-position: center center;
           position: relative;
           padding: 4em 0;
-          background: #6a00ff;
-          background: -moz-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-          background: -webkit-gradient(left top, right top, color-stop(0%, #6a00ff), color-stop(100%, #ffd900));
-          background: -webkit-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-          background: -o-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-          background: -ms-linear-gradient(left, #6a00ff 0%, #ffd900 100%);
-          background: -webkit-gradient(linear, left top, right top, from(#6a00ff), to(#ffd900));
-          background: linear-gradient(to right, #6a00ff 0%, #ffd900 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', endColorstr='#ffd900', GradientType=1 ); }
+          background: #1D1D1D;
+          background: -moz-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+          background: -webkit-gradient(left top, right top, color-stop(0%, #1D1D1D), color-stop(100%, #89BF0E));
+          background: -webkit-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+          background: -o-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+          background: -ms-linear-gradient(left, #1D1D1D 0%, #89BF0E 100%);
+          background: -webkit-gradient(linear, left top, right top, from(#1D1D1D), to(#89BF0E));
+          background: linear-gradient(to right, #1D1D1D 0%, #89BF0E 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D1D1D', endColorstr='#89BF0E', GradientType=1 ); }
         .ftco-section-parallax .heading-section-white h2 {
           font-weight: 400 !important; }
 
@@ -324,7 +296,7 @@ align-items: center !important;
               margin-top: 0;
               margin-bottom: 30px; }
               .ftco-section {
-                padding: 7em 0;
+                padding: 4em 0;
                 position: relative; }
                 @media (max-width: 767.98px) {
                   .ftco-section {
@@ -377,7 +349,7 @@ background-position: center center; }
         width: 100px;
         height: 100px;
         margin: 0 auto;
-        background: #eceef3;
+        background: #d3d3d3;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
@@ -390,7 +362,7 @@ background-position: center center; }
             padding: 1rem !important; }
 
             .block-6 {
-              margin-bottom: 40px; }
+              margin-bottom: 10px; }
               .block-6 .media-body p {
                 font-size: 16px; }
 

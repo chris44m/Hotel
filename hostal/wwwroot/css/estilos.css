@@ -81,12 +81,13 @@ h1{
 .fa-facebook-messenger{
     background: #0084ff;
 }
-.fa-whatsapp{
+/*.fa-whatsapp{
     background: #25d366;
-}
+}*/
 .fa-google-plus-g{
     background: #d95232;
 }
 .social a:hover{
     padding: 10px 25px;
 }
+
