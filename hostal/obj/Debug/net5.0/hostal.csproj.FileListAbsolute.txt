@@ -1728,3 +1728,16 @@ C:\Users\CURIOSO\OneDrive\Documentos\H\Hotel\hostal\obj\Debug\net5.0\hostal.dll
 C:\Users\CURIOSO\OneDrive\Documentos\H\Hotel\hostal\obj\Debug\net5.0\ref\hostal.dll
 C:\Users\CURIOSO\OneDrive\Documentos\H\Hotel\hostal\obj\Debug\net5.0\hostal.pdb
 C:\Users\CURIOSO\OneDrive\Documentos\H\Hotel\hostal\obj\Debug\net5.0\hostal.genruntimeconfig.cache
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Catalogo\Details.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Catalogo\Index.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Contact\Create.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Contact\Edit.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Pago\Create.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Proforma\Edit.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Proforma\Index.cshtml.g.cs

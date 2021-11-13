@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\H\\Hotel\\hostal\\hostal.csproj": {}
+    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\H\\Hotel\\hostal\\hostal.csproj": {
+    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\H\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\H\\Hotel\\hostal\\hostal.csproj",
-        "packagesPath": "C:\\Users\\CURIOSO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CURIOSO\\OneDrive\\Documentos\\H\\Hotel\\hostal\\obj\\",
+        "projectPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CURIOSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

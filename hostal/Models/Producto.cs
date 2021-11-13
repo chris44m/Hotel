@@ -30,6 +30,6 @@ namespace hostal.Models
 
         [Column("Estado")]
         public String Estado{ get; set; }
-
+        
     }
 }
