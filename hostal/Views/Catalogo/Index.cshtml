@@ -10,7 +10,7 @@
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true" style="height: 400px;">
            <div class="col-md-8 ftco-animate text-center">          
-             <h1 class="mb-3 bread">Catálogo</h1>
+             <h1 class="mb-3 bread">Reservas</h1>
             </div>
           </div>
        </div>
@@ -31,15 +31,15 @@
               <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                 <div class="card-body">
                   <div class="card-img-actions">
-                    <img class="img-responsive" width="230" height="150"
+                    <img class="img-responsive" width="230" height="200"
                        src="/images/@item.Imagen" alt="@item.Imagen"  />
                   </div>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nombre)</h5>
                   <p class="card-text">@Html.DisplayFor(modelItem => item.Precio)</p>
-                  <a class="btn btn-primary" asp-action="Add" asp-route-id="@item.Id">Add</a>
-                  <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">View</a>
+                  <a class="btn btn-success" asp-action="Add" asp-route-id="@item.Id">Reservar</a>
+                  <a class="btn btn-success" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
                 </div>
               </div>
             </div>

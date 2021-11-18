@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using hostal.Data;
 using hostal.Models;
 using Microsoft.AspNetCore.Identity;
+using OfficeOpenXml;
+using OfficeOpenXml.Table;
+using Rotativa.AspNetCore;
 
 namespace hostal.Controllers
 {
@@ -21,6 +24,12 @@ namespace hostal.Controllers
         {
             _context = context;
             _userManager = userManager;
+        }
+
+         public IActionResult Index()
+        {
+            
+            return View(_context.DataPago.ToList());
         }
 
         public IActionResult Create(Decimal monto)
@@ -74,5 +83,50 @@ namespace hostal.Controllers
             return View("Create");
         }
 
+         public IActionResult Delete(int id)
+        {
+            Pago objPago = _context.DataPago.Find(id);
+            _context.DataPago.Remove(objPago);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        /*************************EXPORTAR EXCEL******************************/
+        public IActionResult ExportarExcel()
+        {
+            string excelContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            var pagos = _context.DataPago.AsNoTracking().ToList();
+            using (var libro = new ExcelPackage())
+            {
+                var worksheet = libro.Workbook.Worksheets.Add("Pagos");
+                worksheet.Cells["A1"].LoadFromCollection(pagos, PrintHeaders: true);
+                for (var col = 1; col < pagos.Count + 1; col++)
+                {
+                    worksheet.Column(col).AutoFit();
+                }
+                // Agregar formato de tabla
+                var tabla = worksheet.Tables.Add(new ExcelAddressBase(fromRow: 1, fromCol: 1, toRow: pagos.Count + 1, toColumn: 2), "Pagos");
+                tabla.ShowHeader = true;
+                tabla.TableStyle = TableStyles.Light6;
+                tabla.ShowTotal = true;
+
+                return File(libro.GetAsByteArray(), excelContentType, "Pagos.xlsx");
+            }
+        }
+        /*************************GENERAR PDF******************************/
+         public async Task<IActionResult> Documento()
+        {
+           // return View(await _context.Documento.ToListAsync());
+            var userID = _userManager.GetUserName(User);
+            var items = from o in _context.DataProforma select o;
+            items = items.
+                Include(p => p.Producto).
+                Where(s => s.UserID.Equals(userID));
+            
+           return new ViewAsPdf("Documento",await items.ToListAsync());
+        }
+
+
     }
-}
+
+    }

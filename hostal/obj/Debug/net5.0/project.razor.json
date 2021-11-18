@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\hostal.csproj",
+  "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,112 +15619,162 @@
   "RootNamespace": "hostal",
   "Documents": [
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Home\\AboutUs.cshtml",
-      "TargetPath": "Views\\Home\\AboutUs.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Contact\\Create.cshtml",
-      "TargetPath": "Views\\Contact\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Pago\\Create.cshtml",
-      "TargetPath": "Views\\Pago\\Create.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Contact\\Edit.cshtml",
-      "TargetPath": "Views\\Contact\\Edit.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Servicios\\Details.cshtml",
+      "TargetPath": "Views\\Servicios\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Proforma\\Index.cshtml",
-      "TargetPath": "Views\\Proforma\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Contact\\Index.cshtml",
-      "TargetPath": "Views\\Contact\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Catalogo\\Details.cshtml",
-      "TargetPath": "Views\\Catalogo\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Proforma\\Edit.cshtml",
-      "TargetPath": "Views\\Proforma\\Edit.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Product\\Edit.cshtml",
+      "TargetPath": "Views\\Product\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Shared\\Error.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Catalogo\\Details.cshtml",
+      "TargetPath": "Views\\Catalogo\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Pago\\Create.cshtml",
+      "TargetPath": "Views\\Pago\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Contact\\Edit.cshtml",
+      "TargetPath": "Views\\Contact\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Contact\\Index.cshtml",
+      "TargetPath": "Views\\Contact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Contact\\Create.cshtml",
+      "TargetPath": "Views\\Contact\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Pago\\Index.cshtml",
+      "TargetPath": "Views\\Pago\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Views\\Product\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Pago\\Documento.cshtml",
+      "TargetPath": "Views\\Pago\\Documento.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Servicios\\Index.cshtml",
+      "TargetPath": "Views\\Servicios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\PROGRAMACION 1\\Hotel\\hostal\\Views\\Catalogo\\Index.cshtml",
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Product\\Delete.cshtml",
+      "TargetPath": "Views\\Product\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Proforma\\Index.cshtml",
+      "TargetPath": "Views\\Proforma\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Proforma\\Edit.cshtml",
+      "TargetPath": "Views\\Proforma\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Shared\\_MenuPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_MenuPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Home\\AboutUs.cshtml",
+      "TargetPath": "Views\\Home\\AboutUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\Views\\Catalogo\\Index.cshtml",
       "TargetPath": "Views\\Catalogo\\Index.cshtml",
       "FileKind": "mvc"
     }
