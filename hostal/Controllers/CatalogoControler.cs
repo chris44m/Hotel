@@ -40,7 +40,7 @@ namespace hostal.Controllers
         {
             var userID = _userManager.GetUserName(User);
             if(userID == null){
-                ViewData["Message"] = "Por favor debe loguearse antes de agregar un producto";
+                ViewData["Message"] = "Por favor debe loguearse antes de realizar una reserva";
                 List<Product> productos = new List<Product>();
                 return  View("Index",productos);
             }else{

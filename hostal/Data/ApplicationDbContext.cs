@@ -15,6 +15,7 @@ namespace hostal.Data
         {
         }
              public DbSet<hostal.Models.Product> DataProducts { get; set; }
+             public DbSet<hostal.Models.Servicios> DataServicios { get; set; }
 
              public DbSet<hostal.Models.Contact> DataContactos { get; set; }
 

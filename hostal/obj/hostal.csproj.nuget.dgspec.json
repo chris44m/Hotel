@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {}
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
+        "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\obj\\",
+        "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.3, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.9, )"
@@ -83,6 +85,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "RotativaHQ.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             }
           },
           "imports": [
@@ -103,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
