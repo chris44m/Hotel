@@ -28,22 +28,19 @@ namespace hostal.Controllers
         public async Task<IActionResult> Index()
         {
             var userID = _userManager.GetUserName(User);
-            var items = from o in _context.DataProforma select o;
+           
+            var items = from o in _context.DataProformass select o;
             items = items.
-                Include(p => p.Producto).
-                Where(s => s.UserID.Equals(userID) && s.Status.Equals("PENDIENTE"));
+                Include(p => p.Proforma.Producto).
+                Include(p => p.ProformaServi.Servicio).
+                Where(s => s.Proforma.UserID.Equals(userID)  && s.Proforma.Status.Equals("PENDIENTE") && s.ProformaServi.UserID.Equals(userID) && s.ProformaServi.Status.Equals("PENDIENTE"));
+                
+            var elements = await items.ToListAsync();  
+            return View(elements);
 
-            var elements = await items.ToListAsync();
-            var total = elements.Sum(c => c.Quantity * c.Precio );
-            
-            dynamic model = new ExpandoObject();
-            model.montoTotal = total;
-            model.proformas = elements;
-
-            return View(model);
         }
-
-        // GET: Proforma/Delete/5
+        
+       //-----------------------------------ELIMINAR
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -51,62 +48,53 @@ namespace hostal.Controllers
                 return NotFound();
             }
 
-            var proforma = await _context.DataProforma.FindAsync(id);
+            var proformass = await _context.DataProformass.FindAsync(id);
+            _context.DataProformass.Remove(proformass);
+
+            var proformaser = await _context.DataProformaServi.FindAsync(id);
+            _context.DataProformaServi.Remove(proformaser);
+
+             var proforma = await _context.DataProforma.FindAsync(id);
             _context.DataProforma.Remove(proforma);
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        
-        // GET: Proforma/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var proforma = await _context.DataProforma.FindAsync(id);
-            if (proforma == null)
-            {
-                return NotFound();
-            }
-            return View(proforma);
+        //-----------------------------------EDITAR PROFOMA PRODUCTO/HABITACION
+        // GET: Proforma/Edit/5
+        public IActionResult Edit(int id) {
+            var region = _context.DataProforma.Find(id);
+            return View(region);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantity,Precio,UserID")] Proforma proforma)
-        {
-            if (id != proforma.Id)
-            {
-                return NotFound();
+        public IActionResult Edit(Proforma r) {
+            if (ModelState.IsValid) {
+                var region = _context.DataProforma.Find(r.Id);               
+                region.Quantity=r.Quantity;              
+                _context.SaveChanges();
+                return RedirectToAction("Index");
             }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(proforma);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProformaExists(proforma.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(proforma);
+            return View(r);
         }
-        private bool ProformaExists(int id)
-        {
-            return _context.DataProforma.Any(e => e.Id == id);
+
+        //-----------------------------------EDITAR PROFORMA SERVICIOS
+
+        public IActionResult Edits(int id) {
+            var region2 = _context.DataProformaServi.Find(id);
+            return View(region2);
+        }
+
+        [HttpPost]
+        public IActionResult Edits(ProformaServi r) {
+            if (ModelState.IsValid) {
+                var region2 = _context.DataProformaServi.Find(r.Id);               
+                region2.Quantity=r.Quantity;              
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(r);
         }
 
     }

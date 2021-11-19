@@ -20,6 +20,8 @@ namespace hostal.Data
              public DbSet<hostal.Models.Contact> DataContactos { get; set; }
 
              public DbSet<hostal.Models.Proforma> DataProforma { get; set; }
+              public DbSet<hostal.Models.ProformaServi> DataProformaServi { get; set; }
+              public DbSet<hostal.Models.Proformass> DataProformass { get; set; }
 
              public DbSet<hostal.Models.Pago> DataPago { get; set; }
 

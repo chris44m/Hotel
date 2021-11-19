@@ -1,11 +1,8 @@
-@model dynamic;
-@using System.Collections.Generic;
+@model IEnumerable<hostal.Models.Proformass>
 
 @{
     ViewData["Title"] = "Carrito";
-    IEnumerable<hostal.Models.Proforma> listProformas = new List<Proforma>();
-    listProformas = @Model.proformas;
-    Decimal montoTotal = @Model.montoTotal;
+    IEnumerable<hostal.Models.Proformass> listProformass = new List<Proformass>();   
 }
 <body>
 <!--Inicio Banner-->
@@ -25,51 +22,171 @@
 <br>
 
 
-
+<!----------------------------------PROFORMA HABITACIONES/PRODUCTOS----------------------------------->
 <table class="table table-hover">
     <thead class="thead-dark">
         <tr>
             <th scope="col">
-                @Html.DisplayNameFor(model => listProformas.FirstOrDefault().Producto.Imagen)
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().Proforma.Producto.Imagen)
             </th>
             <th>
-                @Html.DisplayNameFor(model => listProformas.FirstOrDefault().Producto.Nombre)
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().Proforma.Producto.Nombre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => listProformas.FirstOrDefault().Precio)
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().Proforma.Precio)
             </th>
             <th>
-                @Html.DisplayNameFor(model => listProformas.FirstOrDefault().Quantity)
-            </th>            
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().Proforma.Quantity)
+            </th>
+             <th>
+                 Subtotal
+             </th>     
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (Proforma item in Model.proformas) {
+@foreach (var item in Model) {
+
+    if(item.Proforma.Producto.Id==0){      
+
+
+    }else{
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Producto.Imagen)
+                @Html.DisplayFor(modelItem => item.Proforma.Producto.Imagen)
                 
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Producto.Nombre)
+                @Html.DisplayFor(modelItem => item.Proforma.Producto.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Precio)
+                @Html.DisplayFor(modelItem => item.Proforma.Precio)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Quantity)
-            </td>            
+                @Html.DisplayFor(modelItem => item.Proforma.Quantity)
+            </td>  
+            <td>
+                @{
+                    decimal subtotal = 0;
+                     var contarsub = 0;
+                    subtotal = item.Proforma.Precio * item.Proforma.Quantity;
+                    contarsub++;
+                }
+                <p>S/. @subtotal</p>
+            </td>          
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success">Editar</a>
                 <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Eliminar</a>
             </td>
         </tr>
+        }
 }
     </tbody>
 </table>
 
-    <a class="btn btn-primary button" asp-controller="Pago" asp-action="Create" asp-route-monto="@montoTotal">Pagar</a>
-    <p align="center" style="font-size: 200%;">Total S/. @montoTotal</p>
+    @{
+        decimal totalp = 0;
+        var contarp = 0;
+    }
+    @foreach (var item in Model)
+    {           
+        totalp = totalp + item.Proforma.Precio * item.Proforma.Quantity;
+        contarp++;
+           
+    }
 
+      <p align="center" style="font-size: 200%;">Total S/. @totalp</p>
+
+<!---------------------------------------PROFORMA SERVICIOS---------------------------------------->
+
+    <table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().ProformaServi.Servicio.Imagen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().ProformaServi.Servicio.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().ProformaServi.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => listProformass.FirstOrDefault().ProformaServi.Quantity)
+            </th> 
+            <th>
+                 Subtotal
+             </th>              
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+
+    if(item.ProformaServi.Servicio.Id==0){      
+
+
+    }else{
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProformaServi.Servicio.Imagen)
+                
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProformaServi.Servicio.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProformaServi.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProformaServi.Quantity)
+            </td>       
+            <td>
+                @{
+                    decimal subtotals = 0;
+                     var contarsubs = 0;
+                    subtotals = item.ProformaServi.Precio * item.ProformaServi.Quantity;
+                    contarsubs++;
+                }
+                <p>S/. @subtotals</p>
+            </td>      
+            <td>
+                <a asp-action="Edits" asp-route-id="@item.Id" class="btn btn-outline-success">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Eliminar</a>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>
+
+@{
+        decimal totals = 0;
+        var contars = 0;
+    }
+    @foreach (var item in Model)
+    {           
+        totals = totals + item.ProformaServi.Precio * item.ProformaServi.Quantity;
+        contars++;
+           
+    }
+
+      <p align="center" style="font-size: 200%;">Total S/. @totals</p>
+
+<!------------------------------------------TOTAL A PAGAR---------------------------------->
+
+@{
+        decimal totaltotal = 0;
+        var contartotal = 0;
+    }
+    @foreach (var item in Model)
+    {           
+        totaltotal = totalp + totals;
+        contartotal++;
+           
+    }
+
+    <p align="center" style="font-size: 400%;">TOTAL A PAGAR S/. @totaltotal</p>
+
+    <a class="btn btn-primary button" asp-controller="Pago" asp-action="Create" asp-route-monto="@totaltotal">Pagar</a>
 </body>
