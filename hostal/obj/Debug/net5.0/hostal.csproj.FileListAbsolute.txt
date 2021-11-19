@@ -1980,6 +1980,7 @@ F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAAAL\Hotel\hostal\obj\Debug\net5.0\Ra
 F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAAAL\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Edit.cshtml.g.cs
 F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAAAL\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Index.cshtml.g.cs
 F:\USMP\2021-II\PROGRAMACION 1\PROYECTO FINAAAL\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Proforma\Edits.cshtml.g.cs
+<<<<<<< HEAD
 F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\bin\Debug\net5.0\appsettings.Development.json
 F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\bin\Debug\net5.0\appsettings.json
 F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\bin\Debug\net5.0\app.db
@@ -2212,3 +2213,36 @@ F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\obj\Debug\net5.0
 F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\obj\Debug\net5.0\ref\hostal.dll
 F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\obj\Debug\net5.0\hostal.pdb
 F:\USMP\2021-II\PROGRAMACION 1\FINAL FINAAALLLLLLL\Hotel\hostal\obj\Debug\net5.0\hostal.genruntimeconfig.cache
+=======
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\AngleSharp.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\EPPlus.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\protobuf-net.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\Rotativa.AspNetCore.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\RotativaHQ.AspNetCore.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\linux-arm\native\libuv.so
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\linux-arm64\native\libuv.so
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\linux-armel\native\libuv.so
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\linux-x64\native\libuv.so
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\osx\native\libuv.dylib
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\win-arm\native\libuv.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\win-x64\native\libuv.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\bin\Debug\net5.0\runtimes\win-x86\native\libuv.dll
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Pago\Documento.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Pago\Index.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Proforma\Edits.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Create.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Delete.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Details.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Edit.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Services\Index.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Servicios\Details.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Servicios\Index.cshtml.g.cs
+D:\PROGRAMACION 1\Proyecto final\Hotel\hostal\obj\Debug\net5.0\Razor\Views\Shared\_MenuPartial.cshtml.g.cs
+>>>>>>> 932f0f2ed7a3f1bbf2f4a99eaf52588819ed78fb

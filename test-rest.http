@@ -1,0 +1,30 @@
+POST https://api.sendgrid.com/v3/mail/send HTTP/1.0
+Authorization: Bearer
+Content-Type: application/json
+
+{
+  "categories": [
+    "demo" 
+  ],
+  "from": {
+    "email": "yaraliz_gomez@usmp.pe", 
+    "name": "Grupo Blanco "
+  },
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "ygm641@gmail.com",
+          "name": "Yara" 
+        }
+      ],
+      "subject": "Bienvenido" 
+    }
+  ],
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "Bienvenido al TIM!"
+    }
+  ],  
+}
