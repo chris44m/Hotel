@@ -53,7 +53,8 @@
     }else{
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Proforma.Producto.Imagen)
+                <img class="img-responsive" width="230" height="200"
+                    src="/images/@item.Proforma.Producto.Imagen" alt="@item.Proforma.Producto.Imagen"  />
                 
             </td>
             <td>
@@ -129,7 +130,8 @@
     }else{
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.ProformaServi.Servicio.Imagen)
+                <img class="img-responsive" width="230" height="200"
+                    src="/images/@item.ProformaServi.Servicio.Imagen" alt="@item.ProformaServi.Servicio.Imagen"  />
                 
             </td>
             <td>
