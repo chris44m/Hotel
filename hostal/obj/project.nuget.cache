@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j8K/0lk+53d5DlhCxtHvQE+nY8DmSKiwNBL61lQYFAxAiRpBxBFFwmrL3Yll2gwQ4u7KGmGJchzizwEFp6tvAw==",
+  "dgSpecHash": "j9J0jlPfnpZasLLhV1U3r5PrXquKaPOD9zNwYTgefX5n8nWbvVRoQmZAjTyCLFVbzA9m1FowRzhbm5oBFiv9pA==",
   "success": true,
-  "projectFilePath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj",
+  "projectFilePath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\anglesharp\\0.9.9\\anglesharp.0.9.9.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\epplus\\4.5.3.3\\epplus.4.5.3.3.nupkg.sha512",

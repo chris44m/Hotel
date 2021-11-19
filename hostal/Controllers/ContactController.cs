@@ -1,7 +1,16 @@
-using Microsoft.AspNetCore.Mvc;
-using hostal.Models;
-using hostal.Data;
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using hostal.Data;
+using hostal.Models;
+using Microsoft.AspNetCore.Identity;
+using OfficeOpenXml;
+using OfficeOpenXml.Table;
+using Rotativa.AspNetCore;
 
 namespace hostal.Controllers
 {
@@ -60,6 +69,29 @@ namespace hostal.Controllers
             _context.DataContactos.Remove(objContacto);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
+        }
+
+        /*************************EXPORTAR EXCEL******************************/
+        public IActionResult ExportarExcel()
+        {
+            string excelContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            var contacto = _context.DataContactos.AsNoTracking().ToList();
+            using (var libro = new ExcelPackage())
+            {
+                var worksheet = libro.Workbook.Worksheets.Add("contacto");
+                worksheet.Cells["A1"].LoadFromCollection(contacto, PrintHeaders: true);
+                for (var col = 1; col < contacto.Count + 1; col++)
+                {
+                    worksheet.Column(col).AutoFit();
+                }
+                // Agregar formato de tabla
+                var tabla = worksheet.Tables.Add(new ExcelAddressBase(fromRow: 1, fromCol: 1, toRow: contacto.Count + 1, toColumn: 2), "contacto");
+                tabla.ShowHeader = true;
+                tabla.TableStyle = TableStyles.Light6;
+                tabla.ShowTotal = true;
+
+                return File(libro.GetAsByteArray(), excelContentType, "contacto.xlsx");
+            }
         }
     }
 }

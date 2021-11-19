@@ -12225,11 +12225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj",
+      "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj",
       "projectName": "hostal",
-      "projectPath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\hostal.csproj",
+      "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "f:\\USMP\\2021-II\\PROGRAMACION 1\\PROYECTO FINAAAL\\Hotel\\hostal\\obj\\",
+      "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"

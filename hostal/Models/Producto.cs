@@ -25,7 +25,7 @@ namespace hostal.Models
         [Display(Name = "Imagen")]
         [Column("Imagen")]
         public String Imagen { get; set; }
-        [Display(Name = "Fecha")]
+        [Display(Name = "Fecha Ingreso")]
         [Column("Date")]
         public DateTime Date { get; set; }
         [Display(Name = "Estado")]

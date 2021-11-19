@@ -64,7 +64,8 @@
                 @Html.DisplayFor(modelItem => item.Precio)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Imagen)
+                <img class="img-responsive" width="130" height="100"
+                    src="/images/@item.Imagen" alt="@item.Imagen"  />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Date)
