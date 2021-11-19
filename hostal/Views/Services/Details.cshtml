@@ -1,14 +1,26 @@
-@model hostal.Models.Product
+@model hostal.Models.Servicios
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Details";
 }
 
-<h1>Eliminar</h1>
-
-<h3>¿SEGURO(A) QUE DESEA ELIMINAR ESTA HABITACIÓN?</h3>
+<!--Inicio Banner-->
+<div class="hero-wrap hero-wrap-2" style="background-image: url('../images/banner1.jpg'); background-attachment:fixed; height: 400px;">
+      <div class="overlay" style="height: 400px;" ></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true" style="height: 400px;">
+           <div class="col-md-8 ftco-animate text-center">          
+             <h1 class="mb-3 bread">Detalles de Servicio</h1>
+            </div>
+          </div>
+       </div>
+</div>    
+<!--Fin Banner-->
+<br>
+<br>
+<br>
 <div>
-    <h4>Product</h4>
+    <h4>Servicios</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -48,10 +60,11 @@
             @Html.DisplayFor(model => model.Estado)
         </dd>
     </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index"><i class="fas fa-arrow-circle-left"></i>Regresar</a>
-    </form>
 </div>
+    <div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-success">Editar</a>
+    </div>
+    
+    <div>
+    <a asp-action="Index"><i class="fas fa-arrow-circle-left"></i>Back to List</a>
+    </div>

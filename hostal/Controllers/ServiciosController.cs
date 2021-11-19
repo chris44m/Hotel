@@ -45,13 +45,41 @@ namespace hostal.Controllers
                 return  View("Index",serv);
             }else{
                 var servicio = await _context.DataServicios.FindAsync(id);
-                Proforma proforma = new Proforma();
-                /*proforma.Producto = servicio;*/
-                proforma.Precio = servicio.Precio;
-                proforma.Quantity = 1;
-                proforma.UserID = userID;
-                _context.Add(proforma);
+                ProformaServi ProformaServi = new ProformaServi();
+                ProformaServi.Servicio = servicio;
+                ProformaServi.Precio = servicio.Precio;
+                ProformaServi.Quantity = 1;
+                ProformaServi.UserID = userID;
+                _context.Add(ProformaServi);
+                /*AGREGAR ID TABLA PROFORMASS*/
+                 var proformas = from o in _context.DataProformaServi select o;
+                proformas = proformas.
+                Include(p => p.Id).
+                Where(s => s.UserID.Equals(ProformaServi.UserID));
+
+                Proformass proformass = new Proformass();
+                proformass.ProformaServi = ProformaServi;               
                 await _context.SaveChangesAsync();
+
+                /************************GUARDAR 0 EN PRODUCTO*************************/
+
+                var producto = await _context.DataProducts.FindAsync(id=0);
+                Proforma proforma = new Proforma();
+                proforma.Producto = producto;
+                proforma.Precio = producto.Precio;
+                proforma.Quantity = 0;
+                proforma.UserID = userID;
+                _context.Add(proforma);                
+                /*AGREGAR ID TABLA PROFORMASS*/
+                var proformap = from o in _context.DataProforma select o;
+                proformap = proformap.
+                Include(p => p.Id).
+                Where(s => s.UserID.Equals(proforma.UserID));
+
+                proformass.Proforma = proforma;                
+                 _context.Add(proformass);
+                await _context.SaveChangesAsync();
+
                 return  RedirectToAction(nameof(Index));
             }
         }

@@ -45,39 +45,78 @@ namespace hostal.Controllers
         {
             pago.PaymentDate = DateTime.Now;
             _context.Add(pago);
-
+            
+            /****/
             var itemsProforma = from o in _context.DataProforma select o;
             itemsProforma = itemsProforma.
                 Include(p => p.Producto).
                 Where(s => s.UserID.Equals(pago.UserID) && s.Status.Equals("PENDIENTE"));
+            /****/
+                var itemsProformaservi = from o in _context.DataProformaServi select o;
+            itemsProformaservi = itemsProformaservi.
+                Include(p => p.Servicio).
+                Where(s => s.UserID.Equals(pago.UserID) && s.Status.Equals("PENDIENTE"));
+            /****/
 
-            Pedido pedido = new Pedido();
-            pedido.UserID = pago.UserID;
-            pedido.Total = pago.MontoTotal;
-            pedido.pago = pago;
-            pedido.Status = "PENDIENTE";
-            _context.Add(pedido);
+              /**GUARDAR EN TABLA PEDIDO/ORDER**/          
+              Pedido pedido = new Pedido();
+              pedido.UserID = pago.UserID;
+              pedido.Total = pago.MontoTotal;
+              pedido.pago = pago;
+               pedido.Status = "PENDIENTE";
+               _context.Add(pedido);
+
+            /**GUARDAR EN TABLA DETALLE PEDIDO/ORDER**/  
+                List<DetallePedido> itemsPedido = new List<DetallePedido>();
+                foreach(var item in itemsProforma.ToList()){
+                    DetallePedido detallePedido = new DetallePedido();
+                    detallePedido.pedido=pedido;
+                    detallePedido.Precio = item.Precio;
+                    detallePedido.Producto = item.Producto;
+                    detallePedido.Quantity = item.Quantity;
+
+                if(item.Producto.Id==0){      
 
 
-            List<DetallePedido> itemsPedido = new List<DetallePedido>();
-            foreach(var item in itemsProforma.ToList()){
-                DetallePedido detallePedido = new DetallePedido();
-                detallePedido.pedido=pedido;
-                detallePedido.Precio = item.Precio;
-                detallePedido.Producto = item.Producto;
-                detallePedido.Quantity = item.Quantity;
-                itemsPedido.Add(detallePedido);
-            }
+                }else{     
+                    itemsPedido.Add(detallePedido);
+                }
+            
+                _context.AddRange(itemsPedido);
+                }
+                /****/
+                /*foreach(var item in itemsProformaservi.ToList()){
+                    DetallePedido detallePedido = new DetallePedido();
+                    detallePedido.pedido=pedido;
+                    detallePedido.Precio = item.Precio;
+                    detallePedido.Producto = item.Servicio;
+                    detallePedido.Quantity = item.Quantity;
 
-            _context.AddRange(itemsPedido);
+                if(item.Servicio.Id==0){      
 
+
+                }else{     
+                    itemsPedido.Add(detallePedido);
+                }
+            
+                _context.AddRange(itemsPedido);
+                }*/
+
+            /**CAMBIAR A PROCESADO EN CARRITO**/  
             foreach (Proforma p in itemsProforma.ToList())
             {
                 p.Status="PROCESADO";
             }
             _context.UpdateRange(itemsProforma);
-
+            /****/
+            foreach (ProformaServi p in itemsProformaservi.ToList())
+            {
+                p.Status="PROCESADO";
+            }            
+            _context.UpdateRange(itemsProformaservi);
+            /****/
             _context.SaveChanges();
+            /*************************************/
 
             ViewData["Message"] = "El pago se ha registrado";
             return View("Create");

@@ -50,9 +50,40 @@ namespace hostal.Controllers
                 proforma.Precio = producto.Precio;
                 proforma.Quantity = 1;
                 proforma.UserID = userID;
-                _context.Add(proforma);
+                _context.Add(proforma);                
+                /*AGREGAR ID TABLA PROFORMASS*/
+                var proformap = from o in _context.DataProforma select o;
+                proformap = proformap.
+                Include(p => p.Id).
+                Where(s => s.UserID.Equals(proforma.UserID));
+
+                Proformass proformass = new Proformass();
+                proformass.Proforma = proforma;
                 await _context.SaveChangesAsync();
+
+                
+                /************************GUARDAR 0 EN SERVICIO*************************/
+
+                var servicio = await _context.DataServicios.FindAsync(id=0);
+                ProformaServi ProformaServi = new ProformaServi();
+                ProformaServi.Servicio = servicio;
+                ProformaServi.Precio = servicio.Precio;
+                ProformaServi.Quantity = 0;
+                ProformaServi.UserID = userID;
+                _context.Add(ProformaServi);
+                 /*AGREGAR ID TABLA PROFORMASS*/
+                 var proformas = from o in _context.DataProformaServi select o;
+                proformas = proformas.
+                Include(p => p.Id).
+                Where(s => s.UserID.Equals(ProformaServi.UserID));
+
+                proformass.ProformaServi = ProformaServi;
+                _context.Add(proformass);
+                await _context.SaveChangesAsync();
+
+
                 return  RedirectToAction(nameof(Index));
+                
             }
         }
 
