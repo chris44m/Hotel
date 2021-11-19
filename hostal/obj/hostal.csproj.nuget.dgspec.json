@@ -1,41 +1,25 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj": {}
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\AHORA SII FINALLLLLLLLLL\\Hotel\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj": {
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\AHORA SII FINALLLLLLLLLL\\Hotel\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\AHORA SII FINALLLLLLLLLL\\Hotel\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\hostal.csproj",
+        "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\AHORA SII FINALLLLLLLLLL\\Hotel\\hostal\\hostal.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\FINAL FINAAALLLLLLL\\Hotel\\hostal\\obj\\",
-=======
-    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {}
-  },
-  "projects": {
-    "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
-        "projectName": "hostal",
-        "projectPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\hostal.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMACION 1\\Proyecto final\\Hotel\\hostal\\obj\\",
->>>>>>> 932f0f2ed7a3f1bbf2f4a99eaf52588819ed78fb
+        "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\AHORA SII FINALLLLLLLLLL\\Hotel\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,39 +44,35 @@
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -100,7 +80,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.10, )"
             },
             "Rotativa.AspNetCore": {
               "target": "Package",
@@ -129,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

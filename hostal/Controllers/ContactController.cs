@@ -1,28 +1,21 @@
 using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
-using System.Linq;
-=======
->>>>>>> 932f0f2ed7a3f1bbf2f4a99eaf52588819ed78fb
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using hostal.Data;
-<<<<<<< HEAD
 using hostal.Models;
 using Microsoft.AspNetCore.Identity;
 using OfficeOpenXml;
 using OfficeOpenXml.Table;
 using Rotativa.AspNetCore;
-=======
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json.Serialization;
 using System.Text.Json;
 using System.Text;
->>>>>>> 932f0f2ed7a3f1bbf2f4a99eaf52588819ed78fb
 
 namespace hostal.Controllers
 {
