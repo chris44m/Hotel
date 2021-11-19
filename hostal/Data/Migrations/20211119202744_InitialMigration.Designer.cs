@@ -10,8 +10,8 @@ using hostal.Data;
 namespace hostal.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211119043011_InitialMigrations")]
-    partial class InitialMigrations
+    [Migration("20211119202744_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
