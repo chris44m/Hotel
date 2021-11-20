@@ -106,7 +106,7 @@ namespace hostal.Controllers
             _context.SaveChanges();
             /*************************************/
             ViewData["Message"] = "El pago se ha registrado";
-            return View("Confirmacion");
+            return View("Create");
         }
 
          public IActionResult Delete(int id)
