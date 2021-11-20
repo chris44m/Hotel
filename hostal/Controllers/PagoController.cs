@@ -31,6 +31,10 @@ namespace hostal.Controllers
             
             return View(_context.DataPago.ToList());
         }
+        public IActionResult Confirmacion()
+        {
+            return View();
+        }
 
         public IActionResult Create(Decimal monto)
         {
@@ -85,23 +89,7 @@ namespace hostal.Controllers
                 _context.AddRange(itemsPedido);
                 }
                 /****/
-                /*foreach(var item in itemsProformaservi.ToList()){
-                    DetallePedido detallePedido = new DetallePedido();
-                    detallePedido.pedido=pedido;
-                    detallePedido.Precio = item.Precio;
-                    detallePedido.Producto = item.Servicio;
-                    detallePedido.Quantity = item.Quantity;
-
-                if(item.Servicio.Id==0){      
-
-
-                }else{     
-                    itemsPedido.Add(detallePedido);
-                }
-            
-                _context.AddRange(itemsPedido);
-                }*/
-
+               
             /**CAMBIAR A PROCESADO EN CARRITO**/  
             foreach (Proforma p in itemsProforma.ToList())
             {
@@ -117,9 +105,8 @@ namespace hostal.Controllers
             /****/
             _context.SaveChanges();
             /*************************************/
-
             ViewData["Message"] = "El pago se ha registrado";
-            return View("Create");
+            return View("Confirmacion");
         }
 
          public IActionResult Delete(int id)
@@ -153,16 +140,22 @@ namespace hostal.Controllers
             }
         }
         /*************************GENERAR PDF******************************/
-         public async Task<IActionResult> Documento()
+        public async Task<IActionResult> Documento()
         {
-           // return View(await _context.Documento.ToListAsync());
+            int a =10;
+            var norma = _context.DataPago.ToList();
+            foreach(var item in norma.ToList()){
+                a=Convert.ToInt32(item.Id);
+            }
             var userID = _userManager.GetUserName(User);
-            var items = from o in _context.DataProforma select o;
-            items = items.
-                Include(p => p.Producto).
-                Where(s => s.UserID.Equals(userID));
-            
-           return new ViewAsPdf("Documento",await items.ToListAsync());
+            var Impresion = from o in _context.DataPedido select o;
+            Impresion = Impresion.
+                Include(p => p.pago).
+                Where(s => s.pago.Id.Equals(a));
+           return new ViewAsPdf("Documento", await Impresion.ToListAsync());
+            {
+
+            }
         }
 
 
