@@ -50,7 +50,7 @@ namespace hostal.Controllers
             _context.SaveChanges();
             ViewData["Message"] = "El contacto ya esta registrado";
             //return RedirectToAction(nameof(Index));
-            ACCESS_TOKEN = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
+            ACCESS_TOKEN = System.Environment.GetEnvironmentVariables()["SENDGRID_API_KEY"].ToString();
 
             Console.WriteLine( " token :" + ACCESS_TOKEN);
 
