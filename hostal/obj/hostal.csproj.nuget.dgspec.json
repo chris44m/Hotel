@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\USMP\\2021-II\\PROGRAMACION 1\\YA AHORA SIII ESTE ES EL FINAAAALLLL\\Hotel\\hostal\\hostal.csproj": {}
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\LISTO PARA SUBIR COMPLETO FINAAAALLL\\Hotel\\hostal\\hostal.csproj": {}
   },
   "projects": {
-    "F:\\USMP\\2021-II\\PROGRAMACION 1\\YA AHORA SIII ESTE ES EL FINAAAALLLL\\Hotel\\hostal\\hostal.csproj": {
+    "F:\\USMP\\2021-II\\PROGRAMACION 1\\LISTO PARA SUBIR COMPLETO FINAAAALLL\\Hotel\\hostal\\hostal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\YA AHORA SIII ESTE ES EL FINAAAALLLL\\Hotel\\hostal\\hostal.csproj",
+        "projectUniqueName": "F:\\USMP\\2021-II\\PROGRAMACION 1\\LISTO PARA SUBIR COMPLETO FINAAAALLL\\Hotel\\hostal\\hostal.csproj",
         "projectName": "hostal",
-        "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\YA AHORA SIII ESTE ES EL FINAAAALLLL\\Hotel\\hostal\\hostal.csproj",
+        "projectPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\LISTO PARA SUBIR COMPLETO FINAAAALLL\\Hotel\\hostal\\hostal.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\YA AHORA SIII ESTE ES EL FINAAAALLLL\\Hotel\\hostal\\obj\\",
+        "outputPath": "F:\\USMP\\2021-II\\PROGRAMACION 1\\LISTO PARA SUBIR COMPLETO FINAAAALLL\\Hotel\\hostal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
